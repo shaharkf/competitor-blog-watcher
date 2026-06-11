@@ -1,0 +1,143 @@
+# Competitor blogs to watch — extracted from Notion "AI Security Vendor Intelligence"
+# (Market Research May 2026), June 2026 snapshot.
+#
+# url = vendor blog/homepage. The watcher auto-discovers RSS from the page;
+# if none exists it falls back to scraping article-looking links.
+# Add an explicit `rss:` once you confirm a feed URL — it's the most reliable path.
+# Skipped (no public homepage / pre-launch): Sun Security, Dash Security, OBVERRA,
+# Certiv (verify), Helmet, Manufact, Obot, and the CrowdStrike-Nest stealth cluster.
+
+sources:
+  # --- A. Pure-play master index ---
+  - name: Aiceberg
+    url: https://aiceberg.ai
+  - name: AIM Security (Cato)
+    url: https://www.catonetworks.com/blog/
+  - name: Airrived
+    url: https://airrived.ai
+  - name: Alice
+    url: https://alice.io
+  - name: Apiiro
+    url: https://apiiro.com/blog/
+  - name: Backslash
+    url: https://www.backslash.security/blog
+  - name: Capsule Security
+    url: https://www.capsulesecurity.io
+  - name: CHEQ
+    url: https://cheq.ai/blog/
+  - name: Cisco AI Defense
+    url: https://blogs.cisco.com/security
+  - name: Dtex
+    url: https://www.dtex.ai
+  - name: Galene.ai
+    url: https://galene.ai
+  - name: Geordie AI
+    url: https://www.geordie.ai
+  - name: Harmonic Security
+    url: https://www.harmonic.security/blog
+  - name: HiddenLayer
+    url: https://hiddenlayer.com/innovation-hub/
+  - name: Holistic AI
+    url: https://www.holisticai.com/blog
+  - name: Knostic
+    url: https://www.knostic.ai/blog
+  - name: Koi
+    url: https://www.koi.ai
+  - name: Lasso Security
+    url: https://www.lasso.security/blog
+  - name: Lumia Security
+    url: https://lumia.security
+  - name: Mindgard
+    url: https://mindgard.ai/blog
+  - name: NeuralTrust
+    url: https://neuraltrust.ai/blog
+  - name: Noma Security
+    url: https://noma.security/blog/
+  - name: Obsidian Security
+    url: https://www.obsidiansecurity.com/blog
+  - name: Onyx Security
+    url: https://onyx.security
+  - name: Opsin
+    url: https://www.opsinsecurity.com
+  - name: Pillar Security
+    url: https://www.pillar.security/blog
+  - name: PointGuard AI
+    url: https://www.pointguardai.com
+  - name: Portal26
+    url: https://portal26.ai
+  - name: Prompt Security (SentinelOne)
+    url: https://www.prompt.security/blog
+  - name: Protect AI (Palo Alto)
+    url: https://protectai.com/blog
+  - name: Reco
+    url: https://www.reco.ai/blog
+  - name: Singulr AI
+    url: https://singulr.ai
+  - name: Straiker
+    url: https://www.straiker.ai/blog
+  - name: Troj AI
+    url: https://troj.ai
+  - name: Varonis
+    url: https://www.varonis.com/blog
+  - name: Vijil
+    url: https://vijil.ai
+  - name: Virtue AI
+    url: https://www.virtueai.com
+  - name: Wiz (Google)
+    url: https://www.wiz.io/blog
+  - name: Xeris
+    url: https://xeris.ai
+  - name: Zenity
+    url: https://zenity.io/blog
+
+  # --- Net-new adds (May–June 2026 research) ---
+  - name: LatticeFlow AI
+    url: https://latticeflow.ai
+  - name: SurePath AI
+    url: https://www.surepath.ai
+  - name: Hush Security
+    url: https://hush.security
+  - name: Aira Security
+    url: https://airasecurity.ai
+  - name: Starseer
+    url: https://starseer.ai
+  - name: Token Security
+    url: https://token-security.com
+
+  # --- MCP security ---
+  - name: Runlayer
+    url: https://www.runlayer.com
+  - name: Operant AI
+    url: https://www.operant.ai
+
+  # --- Agent identity / NHI startups ---
+  - name: Astrix Security
+    url: https://astrix.security/learn/blog/
+  - name: Entro Security
+    url: https://entro.security/blog/
+  - name: Keycard
+    url: https://keycard.io
+  - name: Orchid Security
+    url: https://orchid.security
+  - name: PlainID
+    url: https://www.plainid.com/blog/
+  - name: Glide Identity
+    url: https://glide.id
+
+  # --- Emerging / RSAC 2026 launches ---
+  - name: Salus (YC W26)
+    url: https://www.salusai.dev
+  - name: Manifold Security
+    url: https://www.manifoldsec.com
+  - name: CodeIntegrity
+    url: https://codeintegrity.ai
+  - name: Lyrie.ai
+    url: https://lyrie.ai
+  - name: Bonfy.AI
+    url: https://www.bonfy.ai
+  - name: Novee
+    url: https://novee.security
+  - name: Arcjet
+    url: https://arcjet.com/blog
+  - name: Realm Labs
+    url: https://realmlabs.ai
